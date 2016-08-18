@@ -1,3 +1,5 @@
 <?php
-echo "Hello world!";
+echo "Hello world!<br>";
+$iipp=$_SERVER["REMOTE_ADDR"];
+echo $iipp;
 ?>
