@@ -91,15 +91,11 @@ Zishuo ZHAO
 
 \begin_layout Standard
 \align center
-
-\emph on
 zzs15@mails.tsinghua.edu.cn, i@w.wiku30.xyz
 \end_layout
 
 \begin_layout Standard
 \align center
-
-\emph on
 IIIS, Tsinghua University
 \end_layout
 
@@ -134,13 +130,23 @@ Provincial First Prize in NOIP'13
 \end_inset
 
 15th place in 20th Artificial Intelligence Programming Contest of Tsinghua
- University
+ University.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "[AI Code]"
+target "https://github.com/wiku30/El_Dorado"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-2016/05 - 2019/06
+2016/05 - 2020/06
 \series default
  Undergraduate, Yao Class, Institute for Interdisciplinary Information Sciences,
  Tsinghua University
@@ -477,7 +483,7 @@ English: scored V156,Q170,AW3.5 in GRE General Test (taken on September 23,
 
 \begin_layout Itemize
 Programming Language: mainly using C++ and MATLAB, also with some command
- of Java and Python.
+ of Java, Python and PHP.
 \end_layout
 
 \begin_layout Section
@@ -536,6 +542,16 @@ Jiahui Huang, Sheng Yang, Zishuo Zhao, Yukun Lai, Shi-Min Hu.
 
 \begin_layout Standard
 Accepted for ICCV 2019.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "[Link]"
+target "http://wiku30.xyz/2019/5594.pdf"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -551,11 +567,11 @@ Research Experiences
 \series bold
 Scene Analysis and Reconstruction Based on Geometric Distances
 \series default
-, for Bachelor Thesis, 2019/03-2019/06
+, for Bachelor Thesis, 2019/03 - 2019/06.
 \end_layout
 
 \begin_layout Itemize
-Supervisor: Shi-Min Hu
+Advised by Shi-Min Hu
 \end_layout
 
 \begin_layout Itemize
@@ -594,11 +610,11 @@ literal "false"
 ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering and Motion
  Estimation,
 \series default
- 2018/09-2019/03
+ 2018/09 - 2019/03.
 \end_layout
 
 \begin_layout Itemize
-Supervisor: Shi-Min Hu
+Advised by Shi-Min Hu
 \end_layout
 
 \begin_layout Itemize
@@ -619,16 +635,8 @@ algorithm for clustering landmarks into motion groups
 \end_layout
 
 \begin_layout Itemize
-Accepted for ICCV 2019 
-\begin_inset CommandInset href
-LatexCommand href
-name "[Link]"
-target "http://wiku30.xyz/2019/5594.pdf"
-literal "false"
-
-\end_inset
-
-
+Accepted for ICCV 2019.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -637,11 +645,11 @@ literal "false"
 Data-Driven Shape Reconstruction Using Coupled Geometric and Topological
  Basis
 \series default
-, for visiting program in UT Austin, 2018/04-11
+, for visiting program in UT Austin, 2018/04 - 2018/11.
 \end_layout
 
 \begin_layout Itemize
-Supervisors: Qixing Huang, Chandrajit Bajaj
+Advised by Qixing Huang, Chandrajit Bajaj
 \end_layout
 
 \begin_layout Itemize
@@ -653,8 +661,87 @@ ion
 With topological features for better structure reconstruction
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Musical Instrument Classification via Low-Dimensional Feature Vectors
+\series default
+, for Speech Science and Technology course, 2017/03 - 2017/06.
+\end_layout
+
+\begin_layout Itemize
+Advised by Tan Lee, joint work with Haoyun Wang.
+\end_layout
+
+\begin_layout Itemize
+90% accuracy to classify 6 representative instruments with models of spectral
+ features and least machine learning tools (only simple 32-dimensional SVM).
+\end_layout
+
+\begin_layout Itemize
+Innovative work based on observations and explorations.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[Source Code]"
+target "https://github.com/wiku30/Musical_Instrument_Classification"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Admission Score Prediction and Advice System
+\series default
+, for Summer Internship in Sogou Inc, 2016/07.
+\end_layout
+
+\begin_layout Itemize
+Utilized mathmatical models to convert Raw Scores into 
+\begin_inset Quotes eld
+\end_inset
+
+Ability Levels
+\begin_inset Quotes erd
+\end_inset
+
+ and calculated Ability Levels necessary for admission from data.
+\end_layout
+
+\begin_layout Itemize
+Effectively negated fluctuations of difficulties and discriminative powers
+ in different years and provinces.
+\end_layout
+
+\begin_layout Itemize
+Typical error around 3-5 points (in 750), practical for advising high school
+ graduates.
+\end_layout
+
 \begin_layout Subsection
 Course Projects
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Extensive Exploration on Generalized Birthday Paradox
+\series default
+, for Cryptography course, 2018/01.
+\end_layout
+
+\begin_layout Itemize
+Derived rigorous bounds for Hash collision;
+\end_layout
+
+\begin_layout Itemize
+For non-uniform distributions and multiple (instead of two) appearances.
 \end_layout
 
 \begin_layout Standard
@@ -676,27 +763,6 @@ Used sampling method to estimate the optimal capacity, balancing sampling
 
 \begin_layout Itemize
 Designed two charging policies to endorse social fairness.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Musical Instrument Detection
-\series default
-, for Speech Science and Technology course, 2017/06.
-\end_layout
-
-\begin_layout Itemize
-Joint work with Haoyun Wang, IIIS, Tsinghua University.
-\end_layout
-
-\begin_layout Itemize
-90% accuracy to classify 6 representative instruments with models of spectral
- features and least machine learning tools (only simple 32-dimensional SVM).
-\end_layout
-
-\begin_layout Itemize
-Innovative work based on observations and explorations.
 \end_layout
 
 \begin_layout Standard
@@ -744,31 +810,61 @@ Challenged the well-known
 \begin_layout Standard
 
 \series bold
-Admission Score Prediction and Advice System
+Lung Nodule Detection Based on ConvNet
 \series default
-, for Summer Internship in Sogou Inc, 2016/07.
+, for Machine Learning course, 2017/01.
 \end_layout
 
 \begin_layout Itemize
-Utilized mathmatical models to convert Raw Scores into 
-\begin_inset Quotes eld
-\end_inset
-
-Ability Levels
-\begin_inset Quotes erd
-\end_inset
-
- and calculated Ability Levels necessary for admission from data.
+Joint work with Jiafan He, Yunchao Liu, Changzhi Xie and Haochen Zhang.
 \end_layout
 
 \begin_layout Itemize
-Effectively negated fluctuations of difficulties and discriminative powers
- in different years and provinces.
+Practiced multiple tools of SVM, AdaBoost and CNN on real-world datasets
+ for understanding of ML.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Heuristic Algorithm for 1-2 TSP Problem
+\series default
+, for summer course Theory and Practice of Modern Information Technology,
+ 2016/08.
 \end_layout
 
 \begin_layout Itemize
-Typical error around 3-5 points (in 750), practical for advising high school
- graduates.
+Joint work with Ziyao Lin, IIIS Tsinghua.
+\end_layout
+
+\begin_layout Itemize
+Initialization via heuristics of approximate optimal 2-matching.
+\end_layout
+
+\begin_layout Itemize
+Optimization via Simulated Annealing.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Software Plagiarism Detection
+\series default
+, for Object-Oriented Programming course, 2016/06.
+\end_layout
+
+\begin_layout Itemize
+Extracted fingerprints from codes and compare with KM algorithm.
+\end_layout
+
+\begin_layout Itemize
+Delicately designed algorithm to optimize both fingerprint size and computationa
+l complexity.
+\end_layout
+
+\begin_layout Itemize
+Robust against several cheating tricks e.g.
+ block swapping.
 \end_layout
 
 \begin_layout Standard
@@ -776,7 +872,7 @@ Typical error around 3-5 points (in 750), practical for advising high school
 \align right
 
 \emph on
-(Updated on Sept 13, 2019)
+(Updated on Sept 16, 2019)
 \end_layout
 
 \end_body
