@@ -728,6 +728,18 @@ Typical error around 3-5 points (in 750), practical for advising high school
  graduates.
 \end_layout
 
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[Source Code]"
+target "https://github.com/wiku30/GaoKao"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Course Projects
 \end_layout
@@ -767,6 +779,18 @@ Used sampling method to estimate the optimal capacity, balancing sampling
 
 \begin_layout Itemize
 Designed two charging policies to endorse social fairness.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[Link]"
+target "https://github.com/wiku30/Sharing_Power"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -869,6 +893,18 @@ l complexity.
 \begin_layout Itemize
 Robust against several cheating tricks e.g.
  block swapping.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[Link]"
+target "https://github.com/wiku30/Plagiarism_Detection"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

@@ -666,7 +666,11 @@ With topological features for better structure reconstruction
 \series bold
 Musical Instrument Classification via Low-Dimensional Feature Vectors
 \series default
-, for Speech Science and Technology course, 2017/03 - 2017/06.
+, 
+\emph on
+research project 
+\emph default
+for Speech Science and Technology course, 2017/03 - 2017/06.
 \end_layout
 
 \begin_layout Itemize
@@ -722,6 +726,18 @@ Effectively negated fluctuations of difficulties and discriminative powers
 \begin_layout Itemize
 Typical error around 3-5 points (in 750), practical for advising high school
  graduates.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[Source Code]"
+target "https://github.com/wiku30/GaoKao"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
