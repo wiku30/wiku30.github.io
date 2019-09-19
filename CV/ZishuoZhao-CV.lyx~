@@ -493,7 +493,7 @@ Personal Statement
 \begin_layout Standard
 I am a senior student in IIIS Tsinghua.
  During high-school and college years I am interested in mathematics and
- computer science, and in college years, I intended to do research in especially
+ computer science, and in college years, I have always been interested in
  fields with deep association with mathematics.
 \end_layout
 
@@ -513,16 +513,10 @@ Because of the variety of courses I have taken, and after the visiting program
  in UT Austin, I am now interested in a wide range of scopes, including
  geometry/topology/graphics, statistics/information theory, as well as optimizat
 ion/machine learning theory.
- In future years, I look forward to utilizing extensive knowledge to do
- interdisciplinary research with a solid mathematical background, especially
- in fields combining graphics and data science/machine learning.
-\end_layout
-
-\begin_layout Standard
-During the graduation project in Tsinghua CG Lab, advised by Shi-Min Hu,
+ During the graduation project in Tsinghua CG Lab, advised by Shi-Min Hu,
  I developed particular interest in the area of computer vision in the geometric
- perspective, and now I look forward to do further research in the fields
- that combine mathematical/physical models and data processing.
+ perspective, and now I look forward to do further interdisciplinary research
+ in the fields that combine mathematical/physical models and data processing.
 \end_layout
 
 \begin_layout Section
@@ -595,7 +589,7 @@ Graded A(
 \begin_layout Itemize
 \begin_inset CommandInset href
 LatexCommand href
-name "arXiv:1907.06441"
+name "[arXiv:1907.06441]"
 target "https://arxiv.org/pdf/1907.06441.pdf"
 literal "false"
 
@@ -696,6 +690,15 @@ literal "false"
 \end_inset
 
 
+\begin_inset CommandInset href
+LatexCommand href
+name "[arXiv:1909.08444]"
+target "https://arxiv.org/pdf/1909.08444.pdf"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -779,6 +782,18 @@ Used sampling method to estimate the optimal capacity, balancing sampling
 
 \begin_layout Itemize
 Designed two charging policies to endorse social fairness.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[Link]"
+target "https://github.com/wiku30/Sharing_Power"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -881,6 +896,18 @@ l complexity.
 \begin_layout Itemize
 Robust against several cheating tricks e.g.
  block swapping.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[Link]"
+target "https://github.com/wiku30/Plagiarism_Detection"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
