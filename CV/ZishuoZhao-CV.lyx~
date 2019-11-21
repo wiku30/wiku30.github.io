@@ -559,6 +559,40 @@ Research Experiences
 \begin_layout Standard
 
 \series bold
+LiDAR-Based Map Construction and Localization
+\series default
+, for visiting program in UC Berkeley, 2019/08 - 2020/01.
+\end_layout
+
+\begin_layout Itemize
+Advised by Masayoshi Tomizuka
+\end_layout
+
+\begin_layout Itemize
+Combined state-of-the-art SLAM and localization techniques with GPS data
+ for robust localization
+\end_layout
+
+\begin_layout Itemize
+Autonomous relocalization when tracking failure is detected
+\end_layout
+
+\begin_layout Itemize
+Developed an 
+\begin_inset Quotes eld
+\end_inset
+
+atlas
+\begin_inset Quotes erd
+\end_inset
+
+ data structure with topological connections for precision and efficiency
+ in real-time localization
+\end_layout
+
+\begin_layout Standard
+
+\series bold
 Scene Analysis and Reconstruction Based on Geometric Distances
 \series default
 , for Bachelor Thesis, 2019/03 - 2019/06.
@@ -915,7 +949,7 @@ literal "false"
 \align right
 
 \emph on
-(Updated on Sept 16, 2019)
+(Updated on Sept 19, 2019)
 \end_layout
 
 \end_body
