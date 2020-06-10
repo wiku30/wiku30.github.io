@@ -571,6 +571,32 @@ Research Experiences
 \begin_layout Standard
 
 \series bold
+quq: A Quick Batched Algorithm for Long Read Mapping
+\series default
+, 2020/03 - now
+\end_layout
+
+\begin_layout Itemize
+Advised by Yuan Zhou
+\end_layout
+
+\begin_layout Itemize
+Developed an algorithm to efficiently match multiple long noisy gene patterns
+ with a genome 
+\end_layout
+
+\begin_layout Itemize
+Used a hash-pool structure for pattern strings to recognize multiple patterns
+ in one-pass
+\end_layout
+
+\begin_layout Itemize
+Improved both accuracy and speed of state-of-the-art algorithms
+\end_layout
+
+\begin_layout Standard
+
+\series bold
 LiDAR-Based Map Construction and Localization
 \series default
 , for visiting program in UC Berkeley, 2019/08 - 2020/01.
@@ -961,7 +987,7 @@ literal "false"
 \align right
 
 \emph on
-(Updated on Nov 20, 2019)
+(Updated on Jun 10, 2020)
 \end_layout
 
 \end_body

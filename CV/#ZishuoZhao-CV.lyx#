@@ -1,0 +1,985 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Zishuo ZHAO
+\end_layout
+
+\begin_layout Standard
+\align center
+zzs15@mails.tsinghua.edu.cn, i@w.wiku30.xyz
+\end_layout
+
+\begin_layout Standard
+\align center
+IIIS, Tsinghua University
+\end_layout
+
+\begin_layout Section
+Education Background
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+2012/09 - 2015/06
+\series default
+ No.1 Middle School Affiliated to Central China Normal University
+\begin_inset Newline newline
+\end_inset
+
+National Second Prize in CMO'14
+\begin_inset Newline newline
+\end_inset
+
+Provincial First Prize in NOIP'13
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+2015/08 - 2016/05
+\series default
+ Undergraduate, Department of Computer Science and Technology, Tsinghua
+ University 
+\begin_inset Newline newline
+\end_inset
+
+15th place in 20th Artificial Intelligence Programming Contest of Tsinghua
+ University.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "[AI Code]"
+target "https://github.com/wiku30/El_Dorado"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+2016/05 - 2020/06
+\series default
+ Undergraduate, Yao Class, Institute for Interdisciplinary Information Sciences,
+ Tsinghua University
+\end_layout
+
+\begin_layout Itemize
+Overall GPA: 3.64/4
+\begin_inset Newline newline
+\end_inset
+
+GPA in recent 2 years: 3.69/4
+\begin_inset Newline newline
+\end_inset
+
+Major GPA: 3.76/4
+\end_layout
+
+\begin_layout Itemize
+Honors: 
+\begin_inset Newline newline
+\end_inset
+
+Yao Class Student Fellowship, 2016~2020.
+\begin_inset Newline newline
+\end_inset
+
+Award for Arts Excellence, 2018.
+\end_layout
+
+\begin_layout Itemize
+Grades of Selected Courses:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Linear Algebra I/II
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A-/A+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Foundation of Object-Oriented Programming
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Discrete Mathematics I/II
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A/A-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Physics I/II (in English)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A/A-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mathematics for Computer Science
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Theory and Practice of Modern Information Technology
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Machine Learning
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Numerical Analysis
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Computer Organization and Architecture
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Speech Science, Technology and Innovative Applications
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Computational Modeling for Urban System Regulation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Topology
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A-
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Research Practice
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Diploma Project (Thesis)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Language
+\end_layout
+
+\begin_layout Itemize
+Mandarin Chinese: native language.
+\end_layout
+
+\begin_layout Itemize
+English: scored V156,Q170,AW3.5 in GRE General Test (taken on September 23,
+ 2017), 102(R26, L27, S22, W27) in TOEFL iBT (taken on June 1, 2019).
+\end_layout
+
+\begin_layout Itemize
+Programming Language: mainly using C++ and MATLAB, also with some command
+ of Java, Python and PHP.
+\end_layout
+
+\begin_layout Section
+Personal Statement
+\end_layout
+
+\begin_layout Standard
+I am a senior student in IIIS Tsinghua.
+ During high-school and college years I am interested in mathematics and
+ computer science, and in college years, I have always been interested in
+ fields with deep association with mathematics.
+\end_layout
+
+\begin_layout Standard
+In early days in Department of CST, I reinforced my basic skills and knowledge
+ in computer, and after joining IIIS, I have been working my best to take
+ challenge and improve my abilities for academic career in the future.
+ At the risk of GPA, I always choose to take courses in which I can learn
+ most.
+ During the seemingly overwhelming but fulfilling semester, beside managing
+ to learn well all those courses I love, I realized and escalated my full
+ potential to learn and schedule my life in pervasive challenges.
+\end_layout
+
+\begin_layout Standard
+Because of the variety of courses I have taken, and after the visiting program
+ in UT Austin, I am now interested in a wide range of scopes, including
+ geometry/topology/graphics, statistics/information theory, as well as optimizat
+ion/machine learning theory.
+ During the graduation project in Tsinghua CG Lab, advised by Shi-Min Hu,
+ I developed particular interest in the area of computer vision in the geometric
+ perspective, and now I look forward to do further interdisciplinary research
+ in the fields that combine mathematical/physical models and data processing.
+\end_layout
+
+\begin_layout Section
+Publications
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering and Motion
+ Estimation
+\end_layout
+
+\begin_layout Standard
+Jiahui Huang, Sheng Yang, Zishuo Zhao, Yukun Lai, Shi-Min Hu.
+\end_layout
+
+\begin_layout Standard
+Accepted for ICCV 2019.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "[Link]"
+target "http://wiku30.xyz/2019/5594.pdf"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Selected Projects
+\end_layout
+
+\begin_layout Subsection
+Research Experiences
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+quq: A Quick Batched Algorithm for Long Read Mapping
+\series default
+, 2020/03 - now
+\end_layout
+
+\begin_layout Itemize
+Developed an algorithm to match multiple long noisy gene patterns with a
+ genome in one-pass
+\end_layout
+
+\begin_layout Itemize
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+LiDAR-Based Map Construction and Localization
+\series default
+, for visiting program in UC Berkeley, 2019/08 - 2020/01.
+\end_layout
+
+\begin_layout Itemize
+Advised by Masayoshi Tomizuka
+\end_layout
+
+\begin_layout Itemize
+Combined state-of-the-art SLAM and localization techniques with GPS data
+ for robust localization
+\end_layout
+
+\begin_layout Itemize
+Autonomous relocalization when tracking failure is detected
+\end_layout
+
+\begin_layout Itemize
+Developed an 
+\begin_inset Quotes eld
+\end_inset
+
+atlas
+\begin_inset Quotes erd
+\end_inset
+
+ data structure with topological connections for precision and efficiency
+ in real-time localization
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Scene Analysis and Reconstruction Based on Geometric Distances
+\series default
+, for Bachelor Thesis, 2019/03 - 2019/06.
+\end_layout
+
+\begin_layout Itemize
+Advised by Shi-Min Hu
+\end_layout
+
+\begin_layout Itemize
+Proposed a novel specification of geometrical stability on bar-joint frameworks
+ for stable reconstruction against noises
+\end_layout
+
+\begin_layout Itemize
+Proposed an algorithm to construct low-cost graph of distance constraints
+ that stably determine a spatial structure
+\end_layout
+
+\begin_layout Itemize
+Graded A(
+\begin_inset Formula $\ge95$
+\end_inset
+
+ points)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[arXiv:1907.06441]"
+target "https://arxiv.org/pdf/1907.06441.pdf"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering and Motion
+ Estimation,
+\series default
+ 2018/09 - 2019/03.
+\end_layout
+
+\begin_layout Itemize
+Advised by Shi-Min Hu
+\end_layout
+
+\begin_layout Itemize
+Utilization of SLAM method in reconstructing dynamic scenes and tracking
+ moving objects
+\end_layout
+
+\begin_layout Itemize
+My contribution: developed the 
+\emph on
+motion consistency matrix
+\emph default
+ and utilized 
+\emph on
+complete-linkage clustering 
+\emph default
+algorithm for clustering landmarks into motion groups
+\end_layout
+
+\begin_layout Itemize
+Accepted for ICCV 2019.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Data-Driven Shape Reconstruction Using Coupled Geometric and Topological
+ Basis
+\series default
+, for visiting program in UT Austin, 2018/04 - 2018/11.
+\end_layout
+
+\begin_layout Itemize
+Advised by Qixing Huang, Chandrajit Bajaj
+\end_layout
+
+\begin_layout Itemize
+Using dictionary learning method to utilize prior knowledge in shape reconstruct
+ion
+\end_layout
+
+\begin_layout Itemize
+With topological features for better structure reconstruction
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Musical Instrument Classification via Low-Dimensional Feature Vectors
+\series default
+, 
+\emph on
+research project 
+\emph default
+for Speech Science and Technology course, 2017/03 - 2017/06.
+\end_layout
+
+\begin_layout Itemize
+Advised by Tan Lee, joint work with Haoyun Wang.
+\end_layout
+
+\begin_layout Itemize
+90% accuracy to classify 6 representative instruments with models of spectral
+ features and least machine learning tools (only simple 32-dimensional SVM).
+\end_layout
+
+\begin_layout Itemize
+Innovative work based on observations and explorations.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[Source Code]"
+target "https://github.com/wiku30/Musical_Instrument_Classification"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "[arXiv:1909.08444]"
+target "https://arxiv.org/pdf/1909.08444.pdf"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Admission Score Prediction and Advice System
+\series default
+, for Summer Internship in Sogou Inc, 2016/07.
+\end_layout
+
+\begin_layout Itemize
+Utilized mathmatical models to convert Raw Scores into 
+\begin_inset Quotes eld
+\end_inset
+
+Ability Levels
+\begin_inset Quotes erd
+\end_inset
+
+ and calculated Ability Levels necessary for admission from data.
+\end_layout
+
+\begin_layout Itemize
+Effectively negated fluctuations of difficulties and discriminative powers
+ in different years and provinces.
+\end_layout
+
+\begin_layout Itemize
+Typical error around 3-5 points (in 750), practical for advising high school
+ graduates.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[Source Code]"
+target "https://github.com/wiku30/GaoKao"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Course Projects
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Extensive Exploration on Generalized Birthday Paradox
+\series default
+, for Cryptography course, 2018/01.
+\end_layout
+
+\begin_layout Itemize
+Derived rigorous bounds for Hash collision;
+\end_layout
+
+\begin_layout Itemize
+For non-uniform distributions and multiple (instead of two) appearances.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Sharing Power Storage for Undeveloped Countries
+\series default
+, for Computational Modeling for Urban System Regulation course, 2017/09.
+\end_layout
+
+\begin_layout Itemize
+Designed power storage plans for stable power supply on unstable grids.
+\end_layout
+
+\begin_layout Itemize
+Used sampling method to estimate the optimal capacity, balancing sampling
+ cost and error penalty.
+\end_layout
+
+\begin_layout Itemize
+Designed two charging policies to endorse social fairness.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[Link]"
+target "https://github.com/wiku30/Sharing_Power"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+An Asymptotic Analysis on Generalized Secretary Problem
+\series default
+, for Game Theory course, 2017/06.
+\end_layout
+
+\begin_layout Itemize
+Proved that with most payoff functions of relative ranking, the optimal
+ cutoff point is 
+\begin_inset Formula $O(\sqrt{n})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Given an asymptotic upper bound for the constant w.r.t.
+ satisfying functions.
+\end_layout
+
+\begin_layout Itemize
+Generalized the 
+\begin_inset Formula $\sqrt{n}$
+\end_inset
+
+ result with linear cardinal payoff function.
+\end_layout
+
+\begin_layout Itemize
+Challenged the well-known 
+\begin_inset Quotes eld
+\end_inset
+
+37% rule
+\begin_inset Quotes erd
+\end_inset
+
+ in practical optimal stopping strategies.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Lung Nodule Detection Based on ConvNet
+\series default
+, for Machine Learning course, 2017/01.
+\end_layout
+
+\begin_layout Itemize
+Joint work with Jiafan He, Yunchao Liu, Changzhi Xie and Haochen Zhang.
+\end_layout
+
+\begin_layout Itemize
+Practiced multiple tools of SVM, AdaBoost and CNN on real-world datasets
+ for understanding of ML.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Heuristic Algorithm for 1-2 TSP Problem
+\series default
+, for summer course Theory and Practice of Modern Information Technology,
+ 2016/08.
+\end_layout
+
+\begin_layout Itemize
+Joint work with Ziyao Lin, IIIS Tsinghua.
+\end_layout
+
+\begin_layout Itemize
+Initialization via heuristics of approximate optimal 2-matching.
+\end_layout
+
+\begin_layout Itemize
+Optimization via Simulated Annealing.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Software Plagiarism Detection
+\series default
+, for Object-Oriented Programming course, 2016/06.
+\end_layout
+
+\begin_layout Itemize
+Extracted fingerprints from codes and compare with KM algorithm.
+\end_layout
+
+\begin_layout Itemize
+Delicately designed algorithm to optimize both fingerprint size and computationa
+l complexity.
+\end_layout
+
+\begin_layout Itemize
+Robust against several cheating tricks e.g.
+ block swapping.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "[Link]"
+target "https://github.com/wiku30/Plagiarism_Detection"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align right
+
+\emph on
+(Updated on Nov 20, 2019)
+\end_layout
+
+\end_body
+\end_document
