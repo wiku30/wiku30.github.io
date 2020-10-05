@@ -13,13 +13,6 @@ from flask import Flask, abort, request
 FLAG = "wiku_flag{w15h_y0u_A_gr8_t1m3_anD_5ucc3s5_1n_Fu7uR3~}"
 THE_ID = "mjy0724"
 
-URL_RE = re.compile(
-    r".*wiku30\.xyz.*"
-)
-
-
-assert hashlib.sha256(THE_ID.encode()).hexdigest()[0:3] == "a87"
-
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 512
 
@@ -38,22 +31,12 @@ def proxy(url, request):
             res = requests.post(url, params=params, data=data, headers=headers, timeout=3, verify=False)
         return res.text
     except Exception as e:
-        abort(500)
-
-@app.route("/try", methods=["POST", "GET"])
-def try_show():
-    url = request.args.get('url', "")
-    if not (URL_RE.match(url)) :
-        abort(422)
-
-    res = proxy(url, request)
-    return res
-
+        return "See https://wiku30.xyz/ctf/wiku_flag.py for hints."
 
 @app.route("/", methods=["POST", "GET"])
 def show():
     url = request.args.get('url', "")
-    if not (URL_RE.match(url)):
+    if url != "https://wiku30.xyz/":
         return "See https://wiku30.xyz/ctf/wiku_flag.py for hints.", 200
 
     res = proxy(url, request)
