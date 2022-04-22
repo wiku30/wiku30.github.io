@@ -181,6 +181,20 @@ Publications
 \begin_layout Standard
 
 \series bold
+Dynamic Car Dispatching and Pricing: Revenue and Fairness for Ridesharing
+\end_layout
+
+\begin_layout Standard
+Zishuo Zhao, Xi Chen, Xuefeng Zhang, Yuan Zhou
+\end_layout
+
+\begin_layout Standard
+Accepted for IJCAI 2022, Long Oral.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
 ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering and Motion
  Estimation
 \end_layout
@@ -201,34 +215,6 @@ literal "false"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-Manuscripts
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Dynamic Car Dispatching and Pricing: Revenue and Fairness for Ridesharing
-\end_layout
-
-\begin_layout Standard
-Zishuo Zhao, Xi Chen, Xuefeng Zhang, Yuan Zhou
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Noise-Stable Rigid Graphs for Euclidean Embedding
-\end_layout
-
-\begin_layout Standard
-Zishuo Zhao
 \end_layout
 
 \begin_layout Section
@@ -255,22 +241,6 @@ Academic Activities
 
 \begin_layout Standard
 Facilitator in section Revenue & Pricing, INFORMS Annual Meeting 2021
-\end_layout
-
-\begin_layout Section
-Coding Skills
-\end_layout
-
-\begin_layout Itemize
-Mainly using C++ and MATLAB, also with command of Python, Java, PHP.
-\end_layout
-
-\begin_layout Itemize
-With some knowledge in Verilog HDL and assembly language.
-\end_layout
-
-\begin_layout Itemize
-Open to learning new programming languages when in need.
 \end_layout
 
 \begin_layout Section
@@ -310,257 +280,19 @@ First Prize in National Olympiad in Informatics in Provinces(NOIP), 2013
 \end_layout
 
 \begin_layout Section
-Research Experiences
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Dynamic Car Dispatching and Pricing: Revenue and Fairness for Ridesharing
-\series default
-, 2021/01 - 2021/09
+Coding Skills
 \end_layout
 
 \begin_layout Itemize
-Advised by Yuan Zhou
+Mainly using C++ and MATLAB, also with command of Python, Java, PHP.
 \end_layout
 
 \begin_layout Itemize
-Developed an algorithm for ridesharing to simultaneously maximize revenue
- and ensure fairness with theoretic guarantees
+With some knowledge in Verilog HDL and assembly language.
 \end_layout
 
 \begin_layout Itemize
-Used a novel two-phased pricing algorithm that decouples prices on drivers'
- and riders' sides to adapt to misaligned incentives and guarantee satisfaction
- on both sides
-\end_layout
-
-\begin_layout Itemize
-Considered the stochastic nature of traffic and proposed a Thompson Sampling
- based algorithm to discover riders' valuations via incomplete information
- and balance exploration and exploitation
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-LiDAR-Based Map Construction and Localization
-\series default
-, for visiting program in UC Berkeley, 2019/08 - 2020/01.
-\end_layout
-
-\begin_layout Itemize
-Advised by Masayoshi Tomizuka
-\end_layout
-
-\begin_layout Itemize
-Combined state-of-the-art SLAM and localization techniques with GPS data
- for robust localization
-\end_layout
-
-\begin_layout Itemize
-Autonomous relocalization when tracking failure is detected
-\end_layout
-
-\begin_layout Itemize
-Developed an 
-\begin_inset Quotes eld
-\end_inset
-
-atlas
-\begin_inset Quotes erd
-\end_inset
-
- data structure with topological connections for precision and efficiency
- in real-time localization
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Scene Analysis and Reconstruction Based on Geometric Distances
-\series default
-, for Bachelor Thesis, 2019/03 - 2019/06.
-\end_layout
-
-\begin_layout Itemize
-Advised by Shi-Min Hu
-\end_layout
-
-\begin_layout Itemize
-Proposed a novel specification of geometrical stability on bar-joint frameworks
- for stable reconstruction against noises
-\end_layout
-
-\begin_layout Itemize
-Proposed an algorithm to construct low-cost graph of distance constraints
- that stably determine a spatial structure
-\end_layout
-
-\begin_layout Itemize
-Graded A(
-\begin_inset Formula $\ge95$
-\end_inset
-
- points)
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "[arXiv:1907.06441]"
-target "https://arxiv.org/pdf/1907.06441.pdf"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering and Motion
- Estimation,
-\series default
- 2018/09 - 2019/03.
-\end_layout
-
-\begin_layout Itemize
-Advised by Shi-Min Hu
-\end_layout
-
-\begin_layout Itemize
-Utilization of SLAM method in reconstructing dynamic scenes and tracking
- moving objects
-\end_layout
-
-\begin_layout Itemize
-My contribution: developed the 
-\emph on
-motion consistency matrix
-\emph default
- and utilized 
-\emph on
-complete-linkage clustering 
-\emph default
-algorithm for clustering landmarks into motion groups
-\end_layout
-
-\begin_layout Itemize
-Accepted for ICCV 2019.
- 
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Data-Driven Shape Reconstruction Using Coupled Geometric and Topological
- Basis
-\series default
-, for visiting program in UT Austin, 2018/04 - 2018/11.
-\end_layout
-
-\begin_layout Itemize
-Advised by Qixing Huang, Chandrajit Bajaj
-\end_layout
-
-\begin_layout Itemize
-Using dictionary learning method to utilize prior knowledge in shape reconstruct
-ion
-\end_layout
-
-\begin_layout Itemize
-With topological features for better structure reconstruction
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Musical Instrument Classification via Low-Dimensional Feature Vectors
-\series default
-, 
-\emph on
-research project 
-\emph default
-for Speech Science and Technology course, 2017/03 - 2017/06.
-\end_layout
-
-\begin_layout Itemize
-Advised by Tan Lee, joint work with Haoyun Wang.
-\end_layout
-
-\begin_layout Itemize
-90% accuracy to classify 6 representative instruments with models of spectral
- features and least machine learning tools (only simple 32-dimensional SVM).
-\end_layout
-
-\begin_layout Itemize
-Innovative work based on observations and explorations.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "[Source Code]"
-target "https://github.com/wiku30/Musical_Instrument_Classification"
-literal "false"
-
-\end_inset
-
-
-\begin_inset CommandInset href
-LatexCommand href
-name "[arXiv:1909.08444]"
-target "https://arxiv.org/pdf/1909.08444.pdf"
-literal "false"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Admission Score Prediction and Advice System
-\series default
-, for Summer Internship in Sogou Inc, 2016/07.
-\end_layout
-
-\begin_layout Itemize
-Utilized mathmatical models to convert Raw Scores into 
-\begin_inset Quotes eld
-\end_inset
-
-Ability Levels
-\begin_inset Quotes erd
-\end_inset
-
- and calculated Ability Levels necessary for admission from data.
-\end_layout
-
-\begin_layout Itemize
-Effectively negated fluctuations of difficulties and discriminative powers
- in different years and provinces.
-\end_layout
-
-\begin_layout Itemize
-Typical error around 3-5 points (in 750), practical for advising high school
- graduates.
-\end_layout
-
-\begin_layout Itemize
-\begin_inset CommandInset href
-LatexCommand href
-name "[Source Code]"
-target "https://github.com/wiku30/GaoKao"
-literal "false"
-
-\end_inset
-
-
+Open to learning new programming languages when in need.
 \end_layout
 
 \begin_layout Standard
