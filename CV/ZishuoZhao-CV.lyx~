@@ -155,23 +155,28 @@ Research Interests
 \end_layout
 
 \begin_layout Standard
-I am a first-year PhD student in UIUC, majoring in operations research.
- My research interests span a wide scope including scheduling, pricing,
+I am a third-year PhD student in UIUC, majoring in operations research,
+ and currently doing research in blockchain mechanism design.
+ My research interests also span a wide scope including scheduling, pricing,
  fair division, algorithm design, mechanism design and game theory.
  I have an affection for adopting the ideas and tools in theoretical computer
  science into applications of modern research topics including optimization
- and machine learning.
+ and mechanism design.
 \end_layout
 
 \begin_layout Standard
-I also have an amateur interest in computational geometry and topology,
- which was my research interest during undergraduate time.
+Beside my major, I have an amateur interest in computational geometry and
+ topology, which was my research interest during undergraduate time.
  I have always been excited to solve or prove research problems with geometric
  and topological inspirations.
 \end_layout
 
+\begin_layout Standard
+I also have an interest in Capture-The-Flag(CTF) competitions.
+\end_layout
+
 \begin_layout Section
-Publications and Manuscripts
+Research
 \end_layout
 
 \begin_layout Subsection
@@ -182,6 +187,7 @@ Publications
 
 \series bold
 Dynamic Car Dispatching and Pricing: Revenue and Fairness for Ridesharing
+ Platforms
 \end_layout
 
 \begin_layout Standard
@@ -189,7 +195,17 @@ Zishuo Zhao, Xi Chen, Xuefeng Zhang, Yuan Zhou
 \end_layout
 
 \begin_layout Standard
-Accepted for IJCAI 2022, Long Oral.
+Accepted for IJCAI 2022, Long Oral (3.75%).
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "[Link]"
+target "https://arxiv.org/abs/2207.06318"
+literal "false"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -217,6 +233,21 @@ literal "false"
 
 \end_layout
 
+\begin_layout Subsection
+Working Papers
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Bayesian-Nash-Incentive-Compatible Mechanism for Blockchain Transaction
+ Fee Allocation
+\end_layout
+
+\begin_layout Standard
+Zishuo Zhao, Xi Chen, Yuan Zhou
+\end_layout
+
 \begin_layout Section
 Talks
 \end_layout
@@ -225,6 +256,7 @@ Talks
 
 \series bold
 Dynamic Car Dispatching and Pricing: Revenue and Fairness for Ridesharing
+ Platforms
 \end_layout
 
 \begin_layout Standard
@@ -239,8 +271,12 @@ Invited to INFORMS Annual Meeting 2021
 Academic Activities
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 Facilitator in section Revenue & Pricing, INFORMS Annual Meeting 2021
+\end_layout
+
+\begin_layout Itemize
+Challenge developer of TQLCTF 2022
 \end_layout
 
 \begin_layout Section
@@ -292,7 +328,7 @@ With some knowledge in Verilog HDL and assembly language.
 \end_layout
 
 \begin_layout Itemize
-Open to learning new programming languages when in need.
+Open to learn new programming languages when in need.
 \end_layout
 
 \begin_layout Standard
@@ -300,7 +336,7 @@ Open to learning new programming languages when in need.
 \align right
 
 \emph on
-(Updated on Apr 20, 2022)
+(Updated on Aug 15, 2022)
 \end_layout
 
 \end_body
