@@ -172,15 +172,27 @@ Beside my major, I have an amateur interest in computational geometry and
 \end_layout
 
 \begin_layout Standard
-I also have an interest in Capture-The-Flag(CTF) competitions.
+I also have an interest in Capture-The-Flag(CTF) competitions, especially
+ in Crypto and Reverse.
 \end_layout
 
 \begin_layout Section
 Research
 \end_layout
 
-\begin_layout Subsection
-Publications
+\begin_layout Standard
+
+\series bold
+Bayesian-Nash-Incentive-Compatible Mechanism for Blockchain Transaction
+ Fee Allocation
+\end_layout
+
+\begin_layout Standard
+Zishuo Zhao, Xi Chen, Yuan Zhou
+\end_layout
+
+\begin_layout Standard
+Accepted for CESC 2022.
 \end_layout
 
 \begin_layout Standard
@@ -233,8 +245,8 @@ literal "false"
 
 \end_layout
 
-\begin_layout Subsection
-Working Papers
+\begin_layout Section
+Talks
 \end_layout
 
 \begin_layout Standard
@@ -248,8 +260,8 @@ Bayesian-Nash-Incentive-Compatible Mechanism for Blockchain Transaction
 Zishuo Zhao, Xi Chen, Yuan Zhou
 \end_layout
 
-\begin_layout Section
-Talks
+\begin_layout Standard
+Invited to INFORMS Annual Meeting 2022.
 \end_layout
 
 \begin_layout Standard
@@ -264,7 +276,7 @@ Zishuo Zhao, Xi Chen, Xuefeng Zhang, Yuan Zhou
 \end_layout
 
 \begin_layout Standard
-Invited to INFORMS Annual Meeting 2021
+Invited to INFORMS Annual Meeting 2021.
 \end_layout
 
 \begin_layout Section
