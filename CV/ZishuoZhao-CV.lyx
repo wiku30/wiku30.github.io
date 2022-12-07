@@ -86,7 +86,7 @@
 \begin_body
 
 \begin_layout Title
-Zishuo ZHAO
+Zishuo Zhao
 \end_layout
 
 \begin_layout Standard
@@ -114,6 +114,10 @@ PhD student, Department of Industrial & Enterprise Systems Engineering,
 \end_inset
 
 Research Area: Operations Research
+\begin_inset Newline newline
+\end_inset
+
+Expected Graduation: Summer 2025
 \end_layout
 
 \begin_layout Itemize
@@ -142,23 +146,16 @@ Research Assistant, Haihua Institute for Frontier Information Technology
  University 
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-2012/09 - 2015/06
-\series default
- No.1 Middle School Affiliated to Central China Normal University
-\end_layout
-
 \begin_layout Section
 Research Interests
 \end_layout
 
 \begin_layout Standard
-I am a third-year PhD student in UIUC, majoring in operations research,
+I am a second-year PhD student in UIUC, majoring in operations research,
  and currently doing research in blockchain mechanism design.
- My research interests also span a wide scope including scheduling, pricing,
- fair division, algorithm design, mechanism design and game theory.
+ My research interests also span a wide scope including mechanism design,
+ game theory, scheduling, pricing, fair division, algorithm design and cryptogra
+phy.
  I have an affection for adopting the ideas and tools in theoretical computer
  science into applications of modern research topics including optimization
  and mechanism design.
@@ -183,32 +180,94 @@ Research
 \begin_layout Standard
 
 \series bold
+Bayesian Mechanism Design for Blockchain Transaction Fee Allocation
+\series default
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+A preliminary version of this research has the title 
+\begin_inset Quotes eld
+\end_inset
+
 Bayesian-Nash-Incentive-Compatible Mechanism for Blockchain Transaction
  Fee Allocation
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Zishuo Zhao, Xi Chen, Yuan Zhou
+
+\bar under
+Zishuo Zhao
+\bar default
+, Xi Chen, Yuan Zhou
 \end_layout
 
 \begin_layout Standard
-Accepted for CESC 2022.
+
+\series bold
+\color blue
+\begin_inset CommandInset href
+LatexCommand href
+name "Best Paper Award"
+target "https://ai-secure.github.io/DMLW2022/papers"
+literal "false"
+
+\end_inset
+
+
+\series default
+\emph on
+\color inherit
+, NeurIPS Workshop on Decentralization and Trustworthy Machine Learning
+ in Web3
+\emph default
+, 
+\emph on
+2022
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Crypto Economics Security Conference (CESC 2022)
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Invited to 
+\emph on
+INFORMS Annual Meeting 2022
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
 \series bold
 Dynamic Car Dispatching and Pricing: Revenue and Fairness for Ridesharing
- Platforms
-\end_layout
+ Platforms 
+\series default
 
-\begin_layout Standard
-Zishuo Zhao, Xi Chen, Xuefeng Zhang, Yuan Zhou
-\end_layout
-
-\begin_layout Standard
-Accepted for IJCAI 2022, Long Oral (3.75%).
- 
 \begin_inset CommandInset href
 LatexCommand href
 name "[Link]"
@@ -222,18 +281,47 @@ literal "false"
 
 \begin_layout Standard
 
+\bar under
+Zishuo Zhao
+\bar default
+, Xi Chen, Xuefeng Zhang, Yuan Zhou
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+International Joint Conference on Artificial Intelligence (IJCAI 2022)
+\emph default
+, 
+\series bold
+Long Oral (3.75%)
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Invited to 
+\emph on
+INFORMS Annual Meeting 2021
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \series bold
 ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering and Motion
- Estimation
-\end_layout
+ Estimation 
+\series default
 
-\begin_layout Standard
-Jiahui Huang, Sheng Yang, Zishuo Zhao, Yukun Lai, Shi-Min Hu.
-\end_layout
-
-\begin_layout Standard
-Accepted for ICCV 2019.
- 
 \begin_inset CommandInset href
 LatexCommand href
 name "[Link]"
@@ -245,38 +333,19 @@ literal "false"
 
 \end_layout
 
-\begin_layout Section
-Talks
+\begin_layout Standard
+Jiahui Huang, Sheng Yang, 
+\bar under
+Zishuo Zhao
+\bar default
+, Yukun Lai, Shi-Min Hu.
 \end_layout
 
 \begin_layout Standard
 
-\series bold
-Bayesian-Nash-Incentive-Compatible Mechanism for Blockchain Transaction
- Fee Allocation
-\end_layout
-
-\begin_layout Standard
-Zishuo Zhao, Xi Chen, Yuan Zhou
-\end_layout
-
-\begin_layout Standard
-Invited to INFORMS Annual Meeting 2022.
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Dynamic Car Dispatching and Pricing: Revenue and Fairness for Ridesharing
- Platforms
-\end_layout
-
-\begin_layout Standard
-Zishuo Zhao, Xi Chen, Xuefeng Zhang, Yuan Zhou
-\end_layout
-
-\begin_layout Standard
-Invited to INFORMS Annual Meeting 2021.
+\emph on
+International Conference on Computer Vision (ICCV 2019).
+ 
 \end_layout
 
 \begin_layout Section
@@ -287,12 +356,17 @@ Academic Activities
 Facilitator in section Revenue & Pricing, INFORMS Annual Meeting 2021
 \end_layout
 
-\begin_layout Itemize
-Challenge developer of TQLCTF 2022
-\end_layout
-
 \begin_layout Section
 Awards
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Best Paper Award
+\series default
+, NeurIPS Workshop on Decentralization and Trustworthy Machine Learning
+ in Web3, 2022
 \end_layout
 
 \begin_layout Itemize
@@ -315,24 +389,58 @@ Xuetang Scholarship, 2016-2020
 
 \begin_layout Itemize
 15th place in 20th Artificial Intelligence Programming Contest in Tsinghua
- University.
+ University, 2016.
  
 \end_layout
 
 \begin_layout Itemize
-Second Prize in Chinese Mathematical Olympiad(CMO), 2014
+Second Prize in Chinese Mathematical Olympiad (CMO), 2014
 \end_layout
 
 \begin_layout Itemize
-First Prize in National Olympiad in Informatics in Provinces(NOIP), 2013
+First Prize in National Olympiad in Informatics in Provinces (NOIP), 2013
 \end_layout
 
 \begin_layout Section
+Miscellaneous
+\end_layout
+
+\begin_layout Subsection
+Extracurricular Activities
+\end_layout
+
+\begin_layout Itemize
+In 2021, I attended the Alumni Forum for the 10th Anniversary of IIIS, Tsinghua
+ University.
+\end_layout
+
+\begin_layout Itemize
+I have an interest in vocal music, and performed singing at Yao Class Carnivals
+ in 2016, 2018, 2019, 2020, 2022.
+ Particularly in 2022, I performed the anime song 
+\emph on
+Carrying You
+\emph default
+ of my own version of Chinese translation.
+\end_layout
+
+\begin_layout Itemize
+I developed two Reverse challenges in the Capture-The-Flag contest TQLCTF
+ 2022.
+\end_layout
+
+\begin_layout Itemize
+I have an interest in Chinese writing, especially for coplets and poetry.
+ I also have a personal WeChat official account for daily writing.
+\end_layout
+
+\begin_layout Subsection
 Coding Skills
 \end_layout
 
 \begin_layout Itemize
-Mainly using C++ and MATLAB, also with command of Python, Java, PHP.
+Mainly using C++, MATLAB and Mathematica, also with command of Python, Java,
+ PHP.
 \end_layout
 
 \begin_layout Itemize
@@ -348,7 +456,7 @@ Open to learn new programming languages when in need.
 \align right
 
 \emph on
-(Updated on Sept 11, 2022)
+(Updated on Dec 4, 2022)
 \end_layout
 
 \end_body
