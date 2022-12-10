@@ -214,6 +214,7 @@ Zishuo Zhao
 
 \begin_layout Standard
 
+\series bold
 \color blue
 \begin_inset CommandInset href
 LatexCommand href
@@ -224,6 +225,7 @@ literal "false"
 \end_inset
 
 
+\series default
 \emph on
 \color inherit
 , NeurIPS Workshop on Decentralization and Trustworthy Machine Learning
