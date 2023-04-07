@@ -167,20 +167,45 @@ Beside my major, I have an amateur interest in computational geometry and
 \end_layout
 
 \begin_layout Standard
-I also have an interest in Capture-The-Flag(CTF) competitions, especially
- in Crypto and Reverse.
+I also have an amateur interest in Capture-The-Flag(CTF) competitions, especiall
+y in Crypto and Reverse.
 \end_layout
 
 \begin_layout Section
-Research
+Publications
 \end_layout
 
 \begin_layout Standard
-* means equal contribution.
+* means equal contribution or alphabetical order.
 \end_layout
 
-\begin_layout Subsection
-Publications
+\begin_layout Standard
+
+\series bold
+Personalized Pricing with Group Fairness Constraint
+\end_layout
+
+\begin_layout Standard
+Xin Chen*, Zexing Xu*, 
+\bar under
+Zishuo Zhao
+\bar default
+*, Yuan Zhou*.
+ (alphabetical order)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT
+ 2023)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -211,11 +236,12 @@ Bayesian-Nash-Incentive-Compatible Mechanism for Blockchain Transaction
 \end_layout
 
 \begin_layout Standard
-
+Xi Chen*, David Simchi-Levi*, 
 \bar under
 Zishuo Zhao
 \bar default
-, Xi Chen, Yuan Zhou
+*, Yuan Zhou*.
+ (alphabetical order)
 \end_layout
 
 \begin_layout Standard
@@ -354,36 +380,12 @@ International Conference on Computer Vision (ICCV 2019).
  
 \end_layout
 
-\begin_layout Subsection
-Working Papers
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Personalized Pricing with Group Fairness Constraint
-\end_layout
-
-\begin_layout Standard
-Xin Chen*, Zexing Xu*, 
-\bar under
-Zishuo Zhao
-\bar default
-*, Yuan Zhou*.
- (alphabetical order)
-\end_layout
-
 \begin_layout Section
 Academic Activities
 \end_layout
 
 \begin_layout Itemize
 Facilitator in section Revenue & Pricing, INFORMS Annual Meeting 2021
-\end_layout
-
-\begin_layout Itemize
-Invited to the Alumni Forum for the 10th Anniversary of IIIS, Tsinghua Universit
-y in 2021.
 \end_layout
 
 \begin_layout Section
@@ -410,11 +412,11 @@ Best Paper Award
 \end_layout
 
 \begin_layout Itemize
-Baidu Scholarship for Arts Excellence, 2018
+Scholarship for Arts Excellence in Tsinghua University, 2018
 \end_layout
 
 \begin_layout Itemize
-Xuetang Scholarship, 2016-2020
+Xuetang Scholarship in Tsinghua University, 2016-2020
 \end_layout
 
 \begin_layout Itemize
@@ -440,11 +442,7 @@ Languages
 \end_layout
 
 \begin_layout Itemize
-Mandarin Chinese (native, good at writing)
-\end_layout
-
-\begin_layout Itemize
-Classical Chinese (with interest in reading and writing)
+Mandarin Chinese (native)
 \end_layout
 
 \begin_layout Itemize
@@ -461,18 +459,8 @@ I developed two Reverse challenges in the Capture-The-Flag contest TQLCTF
 \end_layout
 
 \begin_layout Itemize
-I have an interest in vocal music, and performed singing at Yao Class Carnivals
- in 2016, 2018, 2019, 2020, 2022.
- Particularly in 2022, I performed the anime song 
-\emph on
-Carrying You
-\emph default
- of my own version of Chinese translation.
-\end_layout
-
-\begin_layout Itemize
-I have an interest in Chinese writing, especially for coplets and poetry.
- 
+I was invited to the Alumni Forum for the 10th Anniversary of IIIS, Tsinghua
+ University in 2021.
 \end_layout
 
 \begin_layout Subsection
@@ -497,7 +485,7 @@ Open to learn new programming languages when in need.
 \align right
 
 \emph on
-(Updated on Mar 5, 2023)
+(Updated on April 7, 2023)
 \end_layout
 
 \end_body
