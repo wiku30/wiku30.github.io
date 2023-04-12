@@ -106,6 +106,18 @@ Background
 \begin_layout Itemize
 
 \series bold
+2023/09 - 2024/08 (Expected)
+\series default
+ Visiting Student, Massachusetts Institute of Technology
+\begin_inset Newline newline
+\end_inset
+
+Advisor: David Simchi-Levi
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
 2021/01 - now 
 \series default
 PhD student, Department of Industrial & Enterprise Systems Engineering,
@@ -114,6 +126,10 @@ PhD student, Department of Industrial & Enterprise Systems Engineering,
 \end_inset
 
 Research Area: Operations Research
+\begin_inset Newline newline
+\end_inset
+
+Advisor: Yuan Zhou
 \begin_inset Newline newline
 \end_inset
 
@@ -173,10 +189,6 @@ y in Crypto and Reverse.
 
 \begin_layout Section
 Publications
-\end_layout
-
-\begin_layout Standard
-* means equal contribution or alphabetical order.
 \end_layout
 
 \begin_layout Standard
@@ -485,7 +497,7 @@ Open to learn new programming languages when in need.
 \align right
 
 \emph on
-(Updated on April 7, 2023)
+(Updated on April 12, 2023)
 \end_layout
 
 \end_body
