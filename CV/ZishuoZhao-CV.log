@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.19)  23 JUL 2023 13:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.19)  16 OCT 2023 14:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -292,28 +292,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Warning: No \author given.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 84.
+(Font)              <7> on input line 86.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 84.
+(Font)              <5> on input line 86.
 [1
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2] [3] (./ZishuoZhao-CV.aux)
 Package rerunfilecheck Info: File `ZishuoZhao-CV.out' has not changed.
-(rerunfilecheck)             Checksum: A782E4F093418EAF59BFAD0BDA6F503E;1071.
+(rerunfilecheck)             Checksum: CCAA74A91E3C4A02BD83D43C6386E654;1310.
  ) 
 Here is how much of TeX's memory you used:
- 9684 strings out of 476017
- 153652 string characters out of 5793766
+ 9688 strings out of 476017
+ 153712 string characters out of 5793766
  1862660 words of memory out of 5000000
- 30023 multiletter control sequences out of 15000+600000
+ 30025 multiletter control sequences out of 15000+600000
  523838 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,76p,258b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,76p,259b,510s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on ZishuoZhao-CV.pdf (3 pages, 180723 bytes).
+Output written on ZishuoZhao-CV.pdf (3 pages, 182620 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
