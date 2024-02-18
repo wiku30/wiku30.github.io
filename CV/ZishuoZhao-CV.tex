@@ -1,8 +1,9 @@
 %% LyX 2.3.7 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
-\documentclass[english]{article}
+%\documentclass[english]{article}
+\documentclass[UTF8]{ctexart}
 \usepackage[T1]{fontenc}
-\usepackage[latin9]{inputenc}
+%\usepackage[latin9]{inputenc}
 \usepackage{geometry}
 \geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
 \setlength{\parskip}{\smallskipamount}
@@ -11,8 +12,8 @@
 \usepackage{babel}
 \PassOptionsToPackage{normalem}{ulem}
 \usepackage{ulem}
-\usepackage[unicode=true]
- {hyperref}
+%\usepackage{CJKutf8}
+\usepackage[unicode=true]{hyperref}
 
 \makeatletter
 \@ifundefined{date}{}{\date{}}
@@ -23,8 +24,11 @@
 \makeatother
 
 \begin{document}
-\title{Zishuo Zhao}
+\title{Zishuo Zhao 赵梓硕}
 \maketitle
+
+\vspace{-5em}
+
 \begin{center}
 zishuoz2@illinois.edu, wiku30@mit.edu
 \par\end{center}
@@ -35,7 +39,7 @@ ISE, University of Illinois Urbana-Champaign
 
 \section{Background}
 \begin{itemize}
-\item \textbf{2023/09 - 2024/08} Visiting Student, Institute for Data Systems and Society, \\
+\item \textbf{2023/09 - 2024/08} Visiting Student, Institute for Data Systems and Society (IDSS), \\
 Massachusetts Institute of Technology\\
 Advisor: David Simchi-Levi
 \item \textbf{2021/01 - now }PhD student, Department of Industrial \& Enterprise
@@ -59,7 +63,7 @@ and currently doing research in mechanism design. In general, my research
 interests span a wide scope related to algorithm and mechanism design for
 emerging applications in internet economics, including blockchain systems,
 e-commerce, ridesharing platforms and so on. I am also interested in data-driven
-mechanism design based on statistical/online learning.
+mechanism design based on statistical/online learning, and topics in cryptography and distributed systems with applications in blockchain.
 
 On a very high level, my (starry-eyed) dream for research lies in the following fields, which are also the two projects I am most actively working on:
 
@@ -72,7 +76,7 @@ On a very high level, my (starry-eyed) dream for research lies in the following 
 
 \subsection{Publications}
 
-\textbf{Personalized Pricing with Group Fairness Constraint}
+\textbf{Personalized Pricing with Group Fairness Constraint} \href{https://dl.acm.org/doi/10.1145/3593013.3594097}{[Link]}
 
 Xin Chen{*}, Zexing Xu{*}, \uline{Zishuo Zhao}{*}, Yuan Zhou{*}.
 (alphabetical order)
@@ -88,7 +92,7 @@ Mechanism for Blockchain Transaction Fee Allocation''} \href{https://arxiv.org/a
 Xi Chen{*}, David Simchi-Levi{*}, \uline{Zishuo Zhao}{*}, Yuan
 Zhou{*}. (alphabetical order)
 
-\textbf{\textcolor{blue}{\href{https://ai-secure.github.io/DMLW2022/papers}{Best Paper Award}}}\emph{,
+\textcolor{blue}{\href{https://ai-secure.github.io/DMLW2022/papers}{Best Paper Award}}\emph{,
 NeurIPS Workshop on Decentralization and Trustworthy Machine Learning
 in Web3}, \emph{2022}.
 
@@ -120,34 +124,54 @@ Hu.
 
 \subsection{Working Projects}
 
-\textbf{Incentive Secure PoUW Design: Economic and Energy Efficiency for Blockchain Systems}
+\textbf{Proof-of-Learning with Incentive Security}
 
 \uline{Zishuo Zhao}, Zhixuan Fang, Xuechao Wang, Yuan Zhou
 
 Presented on INFORMS Annual Meeting 2023.
 
+\medskip{}
+
+\textbf{Incentive-Aware Dynamic Auction for Budgeted Bidders}
+
+David Simchi-Levi{*}, \uline{Zishuo Zhao}{*}, Yuan Zhou{*}. (alphabetical order)
+
 
 \section{Academic Activities}
 \begin{itemize}
-\item Facilitator in section Revenue \& Pricing, INFORMS Annual Meeting
-2021
+\item Invited to OR Talk by 运筹OR帷幄 (OR China) in 2024.
+\item Facilitator in section Revenue \& Pricing, INFORMS Annual Meeting, 2021.
+\item Invited to the Alumni Forum for the 10th Anniversary of IIIS,
+Tsinghua University in 2021.
 \end{itemize}
 
 \section{Awards}
+
+\subsection{Academic}
 \begin{itemize}
 \item \textbf{Best Paper Award}, NeurIPS Workshop on Decentralization and
 Trustworthy Machine Learning in Web3, 2022
+\item Crypto Economics Security Conference (CESC) Travel Award, 2022
+\item UIUC Graduate College Conference Presentation Award, 2021
 \item 12th place in 2nd THUCTF Information Security Contest in Tsinghua
 University, 2020
 \item 12th place in 24th Artificial Intelligence Programming Contest in
 Tsinghua University, 2020
-\item Scholarship for Arts Excellence in Tsinghua University, 2018
+
 \item Xuetang Scholarship in Tsinghua University, 2016-2020
 \item 15th place in 20th Artificial Intelligence Programming Contest in
 Tsinghua University, 2016. 
 \item Second Prize in Chinese Mathematical Olympiad (CMO), 2014
 \item First Prize in National Olympiad in Informatics in Provinces (NOIP),
 2013
+\end{itemize}
+
+\subsection{Arts}
+
+\begin{itemize}
+    \item Finalist Award in the ``一盏茶时 (\textit{IIIS Tea Time})'' photography exhibition for the 12th Anniversary of IIIS, Tsinghua University. 
+    \item Scholarship for Arts Excellence in Tsinghua University, 2018.
+    \item Third Prize in the Art Festival of No.1 Middle School affiliated to CCNU, 2013. 
 \end{itemize}
 
 \section{Miscellaneous}
@@ -160,10 +184,8 @@ Tsinghua University, 2016.
 
 \subsection{Extracurricular Activities}
 \begin{itemize}
-\item I developed two Reverse challenges in the Capture-The-Flag contest
-TQLCTF 2022.
-\item I was invited to the Alumni Forum for the 10th Anniversary of IIIS,
-Tsinghua University in 2021.
+\item I have an amateur interest in Capture-The-Flag (CTF) competitions, and developed two Reverse challenges in the TQLCTF 2022.
+\item I have a wide scope of hobbies in arts and aerobic sports, especially in vocal music, photography, piano, table tennis and orienteering. Particularly, my photographs ``梦影(\textit{Dreamland Impression})'' and ``$2\pi i$'' won the Finalist Award in the photography exhibition for the 12th Anniversary of IIIS, Tsinghua University in 2023.
 \end{itemize}
 
 \subsection{Coding Skills}
@@ -174,6 +196,6 @@ Java, PHP.
 \item Open to learn new programming languages when in need.
 \end{itemize}
 \begin{flushright}
-\emph{(Updated on Jan 30, 2024)}
+\emph{(Updated on Feb 17, 2024)}
 \par\end{flushright}
 \end{document}
