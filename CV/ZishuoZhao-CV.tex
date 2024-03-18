@@ -15,12 +15,13 @@
 %\usepackage{CJKutf8}
 \usepackage[unicode=true]{hyperref}
 
-%\def\TopicLabel{}
+\def\TopicLabel{}
 
 \ifdefined\TopicLabel
-\def\A4M{\large{\tt(A4M)}}
-\def\M4A{\large{\tt(M4A)}}
-\def\EAI{\large{\tt(EAI)}}
+\def\A4M{\textcolor[rgb]{0.9,0,0.5}{\large{\tt[\#A4M]}}}
+\def\M4A{\textcolor[rgb]{0,0,0.8}{\large{\tt[\#M4A]}}}
+\def\EAI{\textcolor{red}{\large{\tt[\#EAI]}}}
+\def\SUS{\textcolor[rgb]{0.3,0.8,0}{\large{\tt[\#SUS]}}}
 \def\ind#1{\hspace{-3em}#1\hspace{0.36em}}
 \else
 \def\A4M{}
@@ -87,19 +88,22 @@ mechanism design based on statistical/online learning, and topics in cryptograph
 and distributed systems with applications in blockchain.
 
 On a very high level, my (starry-eyed) dream for research lies in the following 
-two fields, which are also the topics I am most actively working on:
+fields, which are also the topics I am most actively working on:
 
 \begin{itemize}
-    \item \textbf{AI for mechanism design\A4M}: e.g., using data-driven methods to 
+    \item \textbf{AI for mechanism design~\A4M}: e.g., using data-driven methods to 
     improve the performance of economic platforms.
-    \item \textbf{Mechanism design for AI\M4A}: e.g., using economic incentives to 
+    \item \textbf{Mechanism design for AI~\M4A}: e.g., using economic incentives to 
     reinforce the efficiency and security of AI systems.
+    \item \textbf{Sustainability in AI \& Economy~\SUS}: e.g. using interdisciplinary
+    methodologies to foster long-term social welfare and environmental friendliness
+    for new-era AI and economic platforms. 
 \end{itemize}
 
 Additionally, I was interested in geometry-based computer graphics and vision at
 my undergraduate times. Although I no longer focus on that research field, I am
 still happy to discuss about related topics, especially the recently fruitful field of
-embodied AI\EAI
+embodied AI~\EAI
 %, and open to possible future interdisciplinary collaboration after my graduation
 .
 
@@ -111,7 +115,7 @@ embodied AI\EAI
 
 \subsection{Publications}
 
-\iA4M\textbf{Personalized Pricing with Group Fairness Constraint} \href{https://dl.acm.org/doi/10.1145/3593013.3594097}{[Link]}
+\textbf{Personalized Pricing with Group Fairness Constraint} \A4M \SUS~\href{https://dl.acm.org/doi/10.1145/3593013.3594097}{[Link]}
 
 Xin Chen{*}, Zexing Xu{*}, \uline{Zishuo Zhao}{*}, Yuan Zhou{*}.
 (alphabetical order)
@@ -121,8 +125,8 @@ Xin Chen{*}, Zexing Xu{*}, \uline{Zishuo Zhao}{*}, Yuan Zhou{*}.
 
 \medskip{}
 
-\iM4A\textbf{Bayesian Mechanism Design for Blockchain Transaction Fee Allocation}\footnote{A preliminary version of this research has the title ``Bayesian-Nash-Incentive-Compatible
-Mechanism for Blockchain Transaction Fee Allocation''} \href{https://arxiv.org/abs/2209.13099}{[Link]}
+\textbf{Bayesian Mechanism Design for Blockchain Transaction Fee Allocation}\footnote{A preliminary version of this research has the title ``Bayesian-Nash-Incentive-Compatible
+Mechanism for Blockchain Transaction Fee Allocation''} \M4A~\href{https://arxiv.org/abs/2209.13099}{[Link]}
 
 Xi Chen{*}, David Simchi-Levi{*}, \uline{Zishuo Zhao}{*}, Yuan
 Zhou{*}. (alphabetical order)
@@ -137,8 +141,8 @@ Invited to \emph{INFORMS Annual Meeting 2022}.
 
 \medskip{}
 
-\iA4M\textbf{Dynamic Car Dispatching and Pricing: Revenue and Fairness
-for Ridesharing Platforms }\href{https://arxiv.org/abs/2207.06318}{[Link]}
+\textbf{Dynamic Car Dispatching and Pricing: Revenue and Fairness
+for Ridesharing Platforms } \A4M \SUS~\href{https://arxiv.org/abs/2207.06318}{[Link]}
 
 \uline{Zishuo Zhao}, Xi Chen, Xuefeng Zhang, Yuan Zhou
 
@@ -149,8 +153,8 @@ Invited to \emph{INFORMS Annual Meeting 2021}.
 
 \medskip{}
 
-\iEAI\textbf{ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering
-and Motion Estimation }\href{http://wiku30.xyz/2019/5594.pdf}{[Link]}
+\textbf{ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering
+and Motion Estimation} \EAI~\href{http://wiku30.xyz/2019/5594.pdf}{[Link]}
 
 Jiahui Huang, Sheng Yang, \uline{Zishuo Zhao}, Yukun Lai, Shi-Min
 Hu.
@@ -159,7 +163,7 @@ Hu.
 
 \subsection{Working Projects}
 
-\iM4A\textbf{Proof-of-Learning with Incentive Security}
+\textbf{Proof-of-Learning with Incentive Security} \M4A \SUS
 
 \uline{Zishuo Zhao}, Zhixuan Fang, Xuechao Wang, Yuan Zhou
 
@@ -167,13 +171,13 @@ Presented on INFORMS Annual Meeting 2023.
 
 \medskip{}
 
-\iA4M\textbf{Incentive-Aware Dynamic Auction for Budgeted Bidders}
+\textbf{Incentive-Aware Dynamic Auction for Budgeted Bidders} \A4M
 
 David Simchi-Levi{*}, \uline{Zishuo Zhao}{*}, Yuan Zhou{*}. (alphabetical order)
 
 \medskip{}
 
-\iM4A\textbf{Peer Prediction for Verifier's Dilemma}
+\textbf{Peer Prediction for Verifier's Dilemma} \M4A
 
 \emph{(Collaborators TBA)}
 
