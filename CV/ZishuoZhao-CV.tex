@@ -36,6 +36,8 @@
 \def\iM4A{\ind{\M4A}}
 \def\iEAI{\ind{\EAI}}
 
+\def\paper#1{\textbf{\textcolor[rgb]{0,0,0.5}{#1}}}
+
 \makeatletter
 \@ifundefined{date}{}{\date{}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
@@ -54,40 +56,40 @@
 \vspace{-5em}
 
 \begin{center}
-zishuoz2@illinois.edu, wiku30@mit.edu
+\texttt{zishuoz2@illinois.edu, wiku30.xyz}
 \par\end{center}
 
 \vspace{-1.7em}
 
 \begin{center}
-ISE, University of Illinois Urbana-Champaign
+PhD Candidate, ISE, University of Illinois Urbana-Champaign
 \par\end{center}
 
-\section{Background}
+\section*{Background}
 \begin{itemize}
-\item \textbf{2023/09 - 2024/08} Visiting Student, Institute for Data Systems and Society (IDSS), \\
-Massachusetts Institute of Technology\\
-Advisor: David Simchi-Levi
-\item \textbf{2021/01 - now }PhD student, Department of Industrial \& Enterprise
+\item \textbf{2021/01 - now }PhD Candidate, Department of Industrial \& Enterprise
 Systems Engineering, \\
 University of Illinois Urbana-Champaign\\
 Research Area: Operations Research\\
 Advisor: Yuan Zhou\\
 Expected Graduation: 2026 - 2028 (depending on my research progress)\\
 Tentative Thesis Title: \emph{Reliable and Sustainable Platform Design for Digital Economy and AI} 
+\item \textbf{2023/09 - 2024/08} Visiting Student, Institute for Data Systems and Society (IDSS), \\
+Massachusetts Institute of Technology\\
+Advisor: David Simchi-Levi
 \item \textbf{2020/08 - 2021/01 }Research Assistant, Haihua Institute for
 Frontier Information Technology\\
 Research Area: Network Optimization\\
 Advisor: Longbo Huang
-\item \textbf{2016/05 - 2020/07} Undergraduate student, Institute
+\item \textbf{2016/05 - 2020/07} Undergraduate Student, Institute
 for Interdisciplinary Information Sciences (Yao Class), Tsinghua University\\
 Research Area: Geometry-Based Visual SLAM\\
 Advisor: Shi-Min Hu
-\item \textbf{2015/08 - 2016/05} Undergraduate student, Department of Computer
+\item \textbf{2015/08 - 2016/05} Undergraduate Student, Department of Computer
 Science and Technology, Tsinghua University 
 \end{itemize}
 
-\section{Research Statement}
+\section*{Research Statement}
 
 I am a fourth-year PhD candidate in UIUC, majoring in operations research,
 and currently doing research in mechanism design. In general, my research
@@ -119,14 +121,10 @@ still happy to discuss about related topics, especially the recently fruitful fi
 Embodied AI~\EAI, and open to possible future interdisciplinary collaboration after my graduation.
 
 
-\section{Research}
+\section*{Selected Papers}
 
-%\setlength\parindent{24pt}
-%\hangindent 24pt
 
-\subsection{Publications and Preprints}
-
-\textbf{Proof-of-Learning with Incentive Security} \iDM~\M4A~\SUS~\href{https://arxiv.org/abs/2404.09005}{[Link]}
+\paper{Proof-of-Learning with Incentive Security} \iDM~\M4A~\SUS~\href{https://arxiv.org/abs/2404.09005}{[Link]}
 
 \uline{Zishuo Zhao}, Zhixuan Fang, Xuechao Wang, Xi Chen, Yuan Zhou.
 
@@ -141,15 +139,13 @@ A preliminary version presented on \emph{INFORMS Annual Meeting 2023}.
 \medskip{}
 
 
-\textbf{Bayesian Mechanism Design for Blockchain Transaction Fee Allocation}
-%\footnote{A preliminary version of this research has the title ``Bayesian-Nash-Incentive-Compatible
-%Mechanism for Blockchain Transaction Fee Allocation''} 
+\paper{Bayesian Mechanism Design for Blockchain Transaction Fee Allocation}
 \M4A~\href{https://arxiv.org/abs/2209.13099}{[Link]}
 
 Xi Chen{*}, David Simchi-Levi{*}, \uline{Zishuo Zhao}{*}, Yuan
 Zhou{*}. (alphabetical order)
 
-Major Revision in \textcolor{blue}{\emph{Operations Research}}
+Major Revision in \textcolor{blue}{\emph{Operations Research}}, 2024.
 
 \textcolor{blue}{\href{https://ai-secure.github.io/DMLW2022/papers}{Best Paper Award}}, \emph{
 NeurIPS Workshop on Decentralization and Trustworthy Machine Learning
@@ -163,10 +159,19 @@ Invited to \emph{INFORMS Annual Meeting 2022}.
 
 \medskip{}
 
-
 \newpage
 
-\textbf{Personalized Pricing with Group Fairness Constraint} \A4M~\SUS~\href{https://dl.acm.org/doi/10.1145/3593013.3594097}{[Link]}
+\paper{It Takes Two: A Peer-Prediction Solution for Blockchain Verifier's Dilemma} \iDM~\M4A~\href{https://arxiv.org/abs/2406.01794}{[Link]}
+
+\uline{Zishuo Zhao}, Xi Chen, Yuan Zhou.
+
+Invited to OR Talk by 运筹OR帷幄 (OR China) in 2024.
+
+\emph{Working Paper (2024).}
+
+\section*{Other Papers}
+
+\paper{Personalized Pricing with Group Fairness Constraint} \A4M~\SUS~\href{https://dl.acm.org/doi/10.1145/3593013.3594097}{[Link]}
 
 Xin Chen{*}, Zexing Xu{*}, \uline{Zishuo Zhao}{*}, Yuan Zhou{*}.
 (alphabetical order)
@@ -177,8 +182,7 @@ Xin Chen{*}, Zexing Xu{*}, \uline{Zishuo Zhao}{*}, Yuan Zhou{*}.
 \medskip{}
 
 
-
-\textbf{Dynamic Car Dispatching and Pricing: Revenue and Fairness
+\paper{Dynamic Car Dispatching and Pricing: Revenue and Fairness
 for Ridesharing Platforms } \A4M~\SUS~\href{https://arxiv.org/abs/2207.06318}{[Link]}
 
 \uline{Zishuo Zhao}, Xi Chen, Xuefeng Zhang, Yuan Zhou
@@ -192,7 +196,7 @@ Invited to \emph{INFORMS Annual Meeting 2021}.
 
 
 
-\textbf{ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering
+\paper{ClusterSLAM: A SLAM Backend for Simultaneous Rigid Body Clustering
 and Motion Estimation} \EAI~\href{https://link.springer.com/article/10.1007/s41095-020-0195-3}{[Link]}
 
 Jiahui Huang, Sheng Yang, \uline{Zishuo Zhao}, Yukun Lai, Shi-Min
@@ -203,20 +207,12 @@ Hu.
 \emph{International Conference on Computer Vision (ICCV 2019). }
 
 
-\subsection{Working Projects}
 
 
-\textbf{(Peer Prediction for) Decentralized Verification Game} \iDM~\M4A 
 
-\uline{Zishuo Zhao}, Xi Chen, Yuan Zhou
+%\textbf{Incentive-Aware Dynamic Auction for Budgeted Bidders} \A4M
 
-\emph{(an interest-driven project; a preliminary version: \href{https://arxiv.org/abs/2406.01794}{[Link]})}
-
-\medskip{}
-
-\textbf{Incentive-Aware Dynamic Auction for Budgeted Bidders} \A4M
-
-David Simchi-Levi{*}, \uline{Zishuo Zhao}{*}, Yuan Zhou{*}. (alphabetical order)
+%David Simchi-Levi{*}, \uline{Zishuo Zhao}{*}, Yuan Zhou{*}. (alphabetical order)
 
 
 
@@ -225,20 +221,21 @@ David Simchi-Levi{*}, \uline{Zishuo Zhao}{*}, Yuan Zhou{*}. (alphabetical order)
 
 
 
-\section{Awards}
+\section*{Awards}
 
-\subsection{Academic}
+\subsection*{Academic}
 \begin{itemize}
 \item \textbf{Best Paper Award}, NeurIPS Workshop on Decentralization and
 Trustworthy Machine Learning in Web3, 2022
 \item Crypto Economics Security Conference (CESC) Travel Award, 2022
 \item UIUC Graduate College Conference Presentation Award, 2021
+\item Xuetang Scholarship in Tsinghua University, 2016-2020
 \item 12th place in 2nd THUCTF Cybersecurity Contest in Tsinghua
 University, 2020
 \item 12th place in 24th Artificial Intelligence Programming Contest in
 Tsinghua University, 2020
 
-\item Xuetang Scholarship in Tsinghua University, 2016-2020
+
 \item 15th place in 20th Artificial Intelligence Programming Contest in
 Tsinghua University, 2016. 
 \item Second Prize in Chinese Mathematical Olympiad (CMO), 2014
@@ -246,47 +243,56 @@ Tsinghua University, 2016.
 2013
 \end{itemize}
 
-\subsection{Arts}
+\subsection*{Arts}
 
 \begin{itemize}
     \item Finalist Award in the ``一盏茶时 (\textit{IIIS Tea Time})'' photography exhibition for the 12th Anniversary of IIIS, Tsinghua University, 2023. 
     \item Scholarship for Arts Excellence in Tsinghua University, 2018.
-    \item Third Prize in the Art Festival of No.1 Middle School affiliated to CCNU, 2013. 
+    \item Third Prize in the Art Festival of No.1 Middle School affiliated to CCNU, for piano performance \emph{Hatsukoi}, 2013.
 \end{itemize}
 
-\section{Academic Activities}
+\section*{Academic Activities}
 \begin{itemize}
-\item Invited to OR Talk by 运筹OR帷幄 (OR China) in 2024.
+\item Invited to OR Talk by 运筹OR帷幄 (OR China) for two talks in 2024.
 \item Conference reviewing: ESA 2024.
 \item Facilitator in section Revenue \& Pricing, INFORMS Annual Meeting, 2021.
 \item Invited to the Alumni Forum for the 10th Anniversary of IIIS,
 Tsinghua University in 2021.
 \end{itemize}
 
-\section{Miscellaneous}
+\section*{Miscellaneous}
 
-\subsection{Languages}
+\subsection*{Languages}
 \begin{itemize}
 \item Mandarin Chinese (native)
 \item English (fluent)
 \item Classical Chinese (writing as a hobby)
 \end{itemize}
 
-\subsection{Extracurricular Activities}
-\begin{itemize}
-\item I have an amateur interest in Capture-The-Flag (CTF) cybersecurity competitions, and developed two Reverse challenges in the TQLCTF 2022.
-\item I have a wide scope of hobbies in arts and aerobic sports, especially in vocal music, photography, piano, table tennis and orienteering. 
-Particularly, my photographs ``梦影(\textit{Dreamland Impression})'' and ``$2\pi i$'' won the Finalist Award in the photography exhibition for the 12th Anniversary of IIIS, Tsinghua University in 2023.
-\end{itemize}
-
-\subsection{Coding Skills}
+\subsection*{Coding Skills}
 \begin{itemize}
 \item Mainly using C++, MATLAB and Mathematica, also with command of Python,
 Java, PHP.
 \item With some knowledge in ROS, Verilog HDL and assembly language.
 \item Open to learn new programming languages when in need.
 \end{itemize}
+
+\subsection*{Extracurricular Activities}
+\begin{itemize}
+\item I have an amateur interest in Capture-The-Flag (CTF) cybersecurity competitions, and developed two Reverse challenges in the TQLCTF 2022.
+\item I have a wide scope of hobbies in arts and aerobic sports, especially in vocal music, photography, piano, table tennis and orienteering. 
+Particularly, my photographs ``梦影(\textit{Dreamland Impression})'' and ``$2\pi i$'' won the Finalist Award in the photography exhibition for the 12th Anniversary of IIIS, Tsinghua University in 2023.
+\end{itemize}
+
+\subsection*{Others}
+
+\begin{itemize}
+    \item My life philosophy is \emph{Andante Cantabile}.
+    \item I play some video games with the game ID \emph{Ai no Hime}, which simultaneously refers to the advancement of artificial intelligence and my wish for an affectionate lifestyle.
+\end{itemize}
+
+
 \begin{flushright}
-\emph{(Updated on Aug 1, 2024)}
+\emph{(Updated on Aug 16, 2024)}
 \par\end{flushright}
 \end{document}
