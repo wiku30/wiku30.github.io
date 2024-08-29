@@ -207,12 +207,12 @@ INPUT v:/softwares/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT v:/softwares/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT v:/softwares/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
 INPUT v:/softwares/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
-INPUT v:/softwares/texlive/2020/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
-INPUT v:/softwares/texlive/2020/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
-INPUT v:/softwares/texlive/2020/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
-INPUT v:/softwares/texlive/2020/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
-INPUT v:/softwares/texlive/2020/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
 INPUT v:/softwares/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ectt1200.tfm
+INPUT v:/softwares/texlive/2020/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
+INPUT v:/softwares/texlive/2020/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
+INPUT v:/softwares/texlive/2020/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
+INPUT v:/softwares/texlive/2020/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
+INPUT v:/softwares/texlive/2020/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
 INPUT v:/softwares/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT v:/softwares/texlive/2020/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8f.tfm
 INPUT v:/softwares/texlive/2020/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong7b.tfm
