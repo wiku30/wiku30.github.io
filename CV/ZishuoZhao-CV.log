@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.21)  14 JAN 2025 10:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.21)  21 JAN 2025 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -532,18 +532,18 @@ Package rerunfilecheck Info: File `ZishuoZhao-CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13764 strings out of 473330
- 240774 string characters out of 5718747
+ 13765 strings out of 473330
+ 240788 string characters out of 5718747
  648004 words of memory out of 5000000
  36654 multiletter control sequences out of 15000+600000
  577561 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,8n,88p,763b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on ZishuoZhao-CV.pdf (5 pages, 260127 bytes).
+Output written on ZishuoZhao-CV.pdf (5 pages, 260216 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
+ 166 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
