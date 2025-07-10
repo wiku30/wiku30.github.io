@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.21)  12 JUN 2025 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.21)  7 JUL 2025 17:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -502,7 +502,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Warning: No \author given.
 
 
-Overfull \hbox (11.93951pt too wide) in paragraph at lines 72--79
+Overfull \hbox (11.93951pt too wide) in paragraph at lines 74--81
 []\T1/cmr/bx/n/10.53937 2021/01 - now \T1/cmr/m/n/10.53937 PhD Candidate (ABD), Department of Industrial & Enterprise Systems Engineering, 
  []
 
@@ -519,8 +519,6 @@ File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdfT
 [3]
 
 [4]
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 305.
-
 
 [5] (./ZishuoZhao-CV.aux)
  ***********
@@ -531,18 +529,18 @@ Package rerunfilecheck Info: File `ZishuoZhao-CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13981 strings out of 473330
- 246080 string characters out of 5718747
- 646004 words of memory out of 5000000
- 36855 multiletter control sequences out of 15000+600000
- 576145 words of font info for 82 fonts, out of 8000000 for 9000
+ 13746 strings out of 473330
+ 240504 string characters out of 5718747
+ 645004 words of memory out of 5000000
+ 36641 multiletter control sequences out of 15000+600000
+ 573402 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,6n,88p,745b,546s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on ZishuoZhao-CV.pdf (5 pages, 256803 bytes).
+ 80i,6n,88p,745b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><v:/softwares/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on ZishuoZhao-CV.pdf (5 pages, 197271 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 22 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
