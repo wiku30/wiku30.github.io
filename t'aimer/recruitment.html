@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment | T'AIMER Lab - Zishuo Zhao</title>
+    <style>
+        :root {
+            --primary-color: #003366; /* 经典的深蓝色，适合学术展示 */
+            --accent-color: #d4af37;  /* 金色点缀 */
+            --bg-color: #fcfcfc;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 880px;
+            margin: 40px auto;
+            background: white;
+            padding: 45px;
+            border-radius: 4px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .lab-title {
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 1.15rem;
+            color: #666;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.4rem;
+            color: var(--primary-color);
+            margin: 30px 0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            display: inline-block;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .bio-section {
+            background-color: #f9f9f9;
+            padding: 25px;
+            border-left: 5px solid var(--primary-color);
+            border-radius: 0 4px 4px 0;
+        }
+
+        /* 研究方向网格 */
+        .research-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .research-card {
+            background: #fff;
+            border: 1px solid #eee;
+            padding: 12px 18px;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+        
+        .research-card:hover {
+            border-color: var(--primary-color);
+            background-color: #f0f4f8;
+        }
+
+        .research-card .en {
+            display: block;
+            font-size: 0.9rem;
+            color: #555;
+            font-weight: 500;
+        }
+
+        /* 奖项高亮 */
+        .award-badge {
+            background-color: #fff9db;
+            border: 1px solid #fab005;
+            color: #862e00;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-right: 5px;
+        }
+
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+
+        .funding-info {
+            background: #eef2f7;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .contact-box {
+            margin-top: 50px;
+            padding: 35px;
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .contact-box a {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 20px; }
+            .research-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="lab-title">Trustworthy AI Mechanism & Economics Research (T'AIMER) Lab</div>
+
+    <h1>招生启事 / Recruitment</h1>
+
+    <section>
+        <h2>个人简介</h2>
+        <div class="bio-section">
+            <p><strong>PI: Zishuo Zhao (赵梓硕)</strong></p>
+            <p>我将于 2026年 8 月加入 <strong>香港科技大学（广州）</strong> 金融科技学域 <a href="https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/society-hub/financial-technology/" target="_blank" >[🔗]</a>，担任助理教授。我于 2026 年 1 月从伊利诺伊大学香槟分校毕业，获得工业工程博士学位，并于 2026 年 3 月至 8 月在新加坡国立大学担任博士后。</p>
+            <p>在攻读博士期间，我于 2023 年 9 月至 2024 年 8 月在麻省理工学院数据科学实验室 (MIT DSL Lab) 访问交流，并于 2025 年 8 月至 2026 年 1 月于 Gradient Network 实习。我于 2020 年毕业于 <strong>清华大学交叉信息研究院（姚班）</strong>。</p>
+            <p>🔗 个人主页: <a href="https://wiku30.xyz/" target="_blank" style="color:var(--primary-color)">https://wiku30.xyz/</a></p>
+        </div>
+    </section>
+
+    <section>
+        <h2>研究亮点</h2>
+        <ul>
+            <li><strong>顶级期刊与在投:</strong> 代表性研究工作发表于 <em>Operations Research</em> 期刊上，另有 2 篇 UTD 在投。</li>
+            <li><strong>获得奖项:</strong> 博士期间共获得 <strong>NeurIPS DMLW</strong> 和 <strong>MIT LIDS Student Conference</strong> 最佳论文奖 2 项。</li>
+            <li><strong>研究目标:</strong> 致力于通过经济激励让理性的参与者在去中心化的平台上进行诚实且高效的计算与验证，从而保证区块链与 AI 平台的可信性、公平性和能源效率。</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>研究方向</h2>
+        <div class="research-grid">
+            <div class="research-card">区块链<span class="en">Blockchain</span></div>
+            <div class="research-card">博弈论与机制设计<span class="en">Game Theory & Mechanism Design</span></div>
+            <div class="research-card">可信 & 去中心化人工智能<span class="en">Trustworthy & Decentralized AI</span></div>
+            <div class="research-card">人工智能的经济学<span class="en">AI Economics</span></div>
+            <div class="research-card">可验证 & 可持续的人工智能计算<span class="en">Verifiable & Sustainable AI Computation</span></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>招生计划 (PhD/RA)</h2>
+        <p>拟招收 <strong>1-2 名 PhD</strong>，及若干 <strong>科研助理 (RA)</strong>。</p>
+        
+        <p><strong>基本要求:</strong></p>
+        <ul>
+            <li>计算机、数学、运筹学、经济学等相关背景。</li>
+            <li>在博弈论/机制设计、区块链、应用密码学、AI 安全等领域有基础或兴趣。</li>
+            <li>研究成果预期发表于 UTD 或计算机领域等顶级期刊/会议。</li>
+        </ul>
+
+        <p><strong>加分项:</strong></p>
+        <ul>
+            <li>对探索前沿交叉领域和 “0 到 1” 的研究有充分热情。</li>
+            <li>研究品味上关注所研究问题对社会的长远价值与意义。 </li>
+            <li>具备较好数学基础，或有 2 个或以上不同领域的研究/参赛经历。</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>申请材料</h2>
+        <ul>
+            <li>个人简历 (CV)</li>
+            <li>自我介绍 (关于学习、科研经历、研究兴趣及未来计划)</li>
+            <li>成绩单</li>
+            <li>一篇写作样本 (发表论文、手稿、有亮点的大作业等)</li>
+            <li><strong>可选:</strong> 一项任意形式的非学术作品 (体现个人特点)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>资助待遇</h2>
+        <div class="funding-info">
+            <p>💰 <strong>全日制 (奖学金生):</strong> 助学金 <strong>15,000 元/月</strong> (最高 4 年)；学费 40,000 元/学年。</p>
+            <p>📝 <strong>自费 / 非全日制:</strong> 学费 150,000 元/学年。</p>
+        </div>
+    </section>
+
+    <div class="contact-box">
+        <h3>欢迎申请加入 T'AIMER Lab</h3>
+        <p>请将相关材料发送至：<br>
+            <a href="mailto:wiku30@nus.edu.sg">wiku30@nus.edu.sg</a> 或 <a href="mailto:wiku30.0@gmail.com">wiku30.0@gmail.com</a>
+        </p>
+        <p style="font-size: 0.9rem; opacity: 0.9; margin-top: 15px;">
+            邮件标题：PhD/RA application - [Your Name] - [School]
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
