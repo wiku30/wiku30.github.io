@@ -13,62 +13,90 @@
             --border-color: #e9ecef;
         }
 
-        /* 基础设置：增加平滑滚动和抗锯齿 */
-        html { scroll-behavior: smooth; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: var(--text-color);
             background-color: #fff;
             margin: 0;
             padding: 0;
-            -webkit-font-smoothing: antialiased;
         }
 
-        /* 响应式容器：在大屏使用网格，在小屏自动切换 */
         .container {
             max-width: 1000px;
             margin: 0 auto;
             padding: 40px 20px;
             display: grid;
-            grid-template-columns: 280px 1fr;
+            grid-template-columns: 300px 1fr;
             gap: 40px;
         }
 
-        /* 手机端 Bug 修复核心：彻底重置网格和固定定位 */
-        @media (max-width: 850px) {
-            .container {
-                grid-template-columns: 1fr;
-                padding: 20px 15px;
-                gap: 20px;
-            }
-            .sidebar {
-                position: static !important; /* 手机端取消固定，防止遮挡 */
-                width: 100%;
-                border-bottom: 2px solid var(--border-color);
-                padding-bottom: 20px;
-            }
-            .main-content {
-                width: 100%;
-            }
-            .profile-name {
-                font-size: 1.8rem !important;
-            }
-        }
-
-        /* 侧边栏样式 */
+        /* 侧边栏基础样式 */
         .sidebar {
             position: sticky;
             top: 40px;
             height: fit-content;
         }
 
+        /* 响应式排版优化 */
+        @media (max-width: 850px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+                padding: 20px 15px;
+                gap: 0; /* 移除容器间距，由子元素内部控制 */
+            }
+
+            .sidebar {
+                display: contents; /* 允许子元素独立排序 */
+            }
+
+            /* 1. 顶部身份信息 */
+            .profile-name, .profile-title, .nav-links {
+                order: 1;
+            }
+
+            /* 2. 中间研究内容 */
+            .main-content {
+                order: 2;
+                width: 100%;
+                margin-top: 30px;
+            }
+
+            /* 3. 底部杂项信息（Contacts, Advising 等） */
+            .section-title-alt, .contact-info, .sidebar ul {
+                order: 3;
+            }
+
+            /* 核心修复：压缩小标题和内容之间的间距 */
+            .section-title-alt {
+                margin-top: 25px !important;
+                margin-bottom: 8px !important; /* 紧贴下方内容 */
+            }
+
+            .contact-info p {
+                margin-top: 2px !important; /* 解决截图中的大间距问题 */
+                margin-bottom: 5px !important;
+            }
+
+            .sidebar ul {
+                margin-top: 5px !important; /* 解决列表与标题间的间距 */
+                padding-left: 25px;
+            }
+
+            /* 在底部杂项区域开始处加一条线，增加层次感 */
+            .sidebar h3.section-title-alt:first-of-type {
+                border-top: 1px solid var(--border-color);
+                padding-top: 20px;
+            }
+        }
+
+        /* 桌面端样式保持不变 */
         .profile-name {
             font-size: 2.2rem;
             font-weight: 300;
             margin-bottom: 10px;
             color: var(--primary-color);
-            line-height: 1.2;
         }
 
         .profile-title {
@@ -77,19 +105,15 @@
             margin-bottom: 20px;
         }
 
-        .nav-links { margin-bottom: 20px; }
+        .nav-links { margin-bottom: 10px; }
         .nav-links a {
             text-decoration: none;
             color: var(--accent-color);
             font-weight: bold;
             border: 1px solid var(--accent-color);
-            padding: 4px 10px;
-            border-radius: 4px;
-            transition: all 0.2s;
-        }
-        .nav-links a:hover {
-            background: var(--accent-color);
-            color: #fff;
+            padding: 5px 12px;
+            border-radius: 5px;
+            display: inline-block;
         }
 
         .section-title-alt {
@@ -101,18 +125,6 @@
             font-size: 1.1rem;
         }
 
-        /* 联系方式修复：防止长邮箱地址撑破屏幕 */
-        .contact-info {
-            font-size: 0.9rem;
-            word-wrap: break-word;
-            overflow-wrap: anywhere;
-        }
-
-        /* 主内容样式 */
-        .main-content {
-            min-width: 0; /* 极其重要：防止子元素溢出容器 */
-        }
-        
         .main-content section {
             margin-bottom: 40px;
         }
@@ -130,17 +142,13 @@
             padding: 20px;
             border-left: 4px solid var(--accent-color);
             margin-bottom: 30px;
-            border-radius: 0 4px 4px 0;
         }
 
         .highlight-box {
             font-style: italic;
             color: #444;
-            padding: 15px 20px;
+            padding: 10px 0;
             margin: 15px 0;
-            background: #fff;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
         }
 
         .pub-item {
@@ -149,32 +157,15 @@
             border-bottom: 1px dashed var(--border-color);
         }
 
-        .pub-title {
-            font-weight: bold;
-            display: block;
-            margin-bottom: 4px;
-        }
+        .pub-title { font-weight: bold; display: block; }
+        .pub-author { font-size: 0.9rem; }
+        .pub-author u { text-decoration: none; border-bottom: 1px solid var(--text-color); }
+        .pub-venue { color: #0056b3; font-size: 0.9rem; }
+        .award { color: #d35400; font-weight: bold; font-size: 0.85rem; }
 
-        .pub-author {
+        .contact-info {
             font-size: 0.9rem;
-        }
-
-        .pub-author u {
-            text-decoration: none;
-            border-bottom: 1px solid var(--text-color);
-        }
-
-        .pub-venue {
-            color: #0056b3;
-            font-size: 0.9rem;
-        }
-
-        .award {
-            color: #d35400;
-            font-weight: bold;
-            font-size: 0.85rem;
-            display: inline-block;
-            margin-top: 4px;
+            word-break: break-all;
         }
 
         .footer {
@@ -184,16 +175,11 @@
             margin-top: 50px;
             padding: 20px;
             font-size: 0.8rem;
-            border-top: 1px solid var(--border-color);
         }
 
         ul { padding-left: 20px; }
         li { margin-bottom: 8px; }
-
-        a {
-            color: var(--accent-color);
-            transition: opacity 0.2s;
-        }
+        a { color: var(--accent-color); transition: opacity 0.2s; }
         a:hover { opacity: 0.7; }
     </style>
 </head>
@@ -301,7 +287,7 @@
 </div>
 
 <footer class="footer">
-    Last updated on 2026-03-23
+    Last updated on 2026-04-27
 </footer>
 
 </body>
