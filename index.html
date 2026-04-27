@@ -169,12 +169,44 @@
         }
 
         .footer {
-            text-align: right;
-            font-style: italic;
-            color: #999;
-            margin-top: 50px;
-            padding: 20px;
+            /* 让 Footer 在桌面端横跨两列 */
+            grid-column: 1 / -1; 
+            text-align: center;
+            border-top: 1px solid var(--border-color);
+            margin-top: 100px; /* 增加与上方内容的距离 */
+            padding: 50px 20px;
+            color: #888;
+            font-size: 0.85rem;
+            letter-spacing: 0.02em;
+        }
+
+        .footer p {
+            margin: 8px 0;
+        }
+
+        /* 强化 Mirage 模板的视觉标签感 */
+        .footer .template-tag {
+            font-family: Consolas, Monaco, monospace;
+            font-style: normal;
+            /* 这种淡紫色背景能让模板名在视觉上像代码块中的关键词一样跳出来 */
+            background: #f0f1ff; 
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: var(--accent-color);
+            font-weight: 500;
             font-size: 0.8rem;
+        }
+
+        .footer .date-highlight {
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        @media (max-width: 850px) {
+            .footer {
+                margin-top: 60px;
+                padding: 40px 15px;
+            }
         }
 
         ul { padding-left: 20px; }
@@ -305,7 +337,22 @@
 </div>
 
 <footer class="footer">
-    Last updated on 2026-04-27
+    <p>Last updated on <span class="date-highlight">2026-04-27</span>.</p>
+    
+    <p>
+        Built with template <span class="template-tag">Mirage</span>, 
+        co-designed with Google Gemini on <span class="date-highlight">2026-04-27</span>. 
+    </p>
+
+    <p>
+        Legacy version: <a href="index_legacy.html">[Link]</a>, 
+        featuring the self-crafted <span class="template-tag">Bichromatic Chain</span> template 
+        (est. <span class="date-highlight">2017-10-30</span>).
+    </p>
+
+    <p style="opacity: 0.6; font-size: 0.75rem; margin-top: 20px;">
+        &copy; 2026 Zishuo Zhao. All rights reserved.
+    </p>
 </footer>
 
 </body>
