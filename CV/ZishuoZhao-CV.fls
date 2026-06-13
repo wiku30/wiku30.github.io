@@ -218,9 +218,14 @@ INPUT v:/softwares/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong4e
 INPUT v:/softwares/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong76.tfm
 INPUT v:/softwares/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong83.tfm
 INPUT v:/softwares/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong65.tfm
+INPUT v:/softwares/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong30.tfm
+INPUT v:/softwares/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong66.tfm
+INPUT v:/softwares/texlive/2024/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong8d.tfm
 INPUT ZishuoZhao-CV.aux
 INPUT ./ZishuoZhao-CV.out
 INPUT ./ZishuoZhao-CV.out
+INPUT c:/Windows/Fonts/simsun.ttc
+INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
